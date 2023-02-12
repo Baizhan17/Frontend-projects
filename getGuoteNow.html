@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Get Your Quote</title>
+</head>
+
+<body style="background:url(/project/img/Saul.jpg);background-size: cover; background-repeat: no-repeat;">
+    <div class="form">
+        <h1>Provide us some data about you:</h1>
+    <form method="GET">
+        <div class="form-element">
+        <lable for="fName">Full name</lable>
+        <input type="text" id="fName" placeholder="enter your full name" required>
+        </div>
+
+        <div class="form-element">
+        <lable for="pNum">Phone Number:</lable>
+        <input type="text" id="pNum" placeholder="enter your Phone number" required maxlength="9">
+        </div>
+
+        <div class="form-element">
+        <lable for="eMail">E-mail:</lable>
+        <input type="text" id="eMail" placeholder="enter your email" required>
+        </div>
+
+        <div class="form-element">
+        <lable>How we can contact you:</lable>
+        <select id="option">
+            <option>Face-to-face consultation</option>
+            <option>Phone call</option>
+        </select>
+        </div>
+        <input class="form-element" type="submit" id="sub" onclick="al">
+        <script>
+            function al{
+            alert("your data was collected.We will contact you soon!");}
+        </script>
+    </form>
+    </div>
+    
+    <footer class="footer1">
+        
+        <nav>
+            <h2>Contact Us</h2>
+        <img src="/project/img/instagram (1).svg"href="" class="img-form">
+        <img src="/project/img/facebook.svg"href="" class="img-form">
+        <img src="/project/img/email.svg"href="" class="img-form">
+        <h3>Contact number:</h3>
+        <span>+48777777777</span>
+        </nav>
+    </footer>
+</body>
+</html>
